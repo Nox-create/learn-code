@@ -1,0 +1,17 @@
+#Dans ce fichier nous allons aprendre à géreer une liste
+
+def ajout_élément(n: int) -> list:
+    L = []
+    #ajouter n à la liste puis la renvoyer
+    pass
+
+def concat(L1, L2) -> list:
+    #les deux liste doivent se retrouver dans une seule et même liste
+    pass
+
+def acces(i: int, L:list) -> int:
+    #on veut revouyer le ième élément de la list
+    pass
+
+
+#tests
