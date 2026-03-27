@@ -1,24 +1,32 @@
 #ce fichier vise à apprendre mles bases de python pour prendre en main le language
 
 def addition(a: int, b:int) -> int:
-    pass
+    X = a+b
+    return X
+    
 
 def soustraction(a: int, b:int) -> int:
-    pass
+    Y = a-b
+    return Y
 
 def multiplication(a: int, b: int) -> int:
-    pass
+    F = a*b
+    return F
 
-def division(a:int, b:int) -> int:
-    pass
+def division(a:int, b:int) -> float:
+    Raph = a/b
+    return Raph
 
 def puissance(a:int, b:int) -> int:
     #cette fonction doit retourner le nombre a à la puissance b
-    pass
+    je = a**b
+    return je
 
 def division_euclidienne(a:int , b:int) -> tuple:
     #renvoie le quotient ENTIER et le reste d'une division
-    pass
+    aime = a//b
+    Boop = a%b
+    return aime,Boop
 
 #test
 #tu rajoutera des tests toi même
